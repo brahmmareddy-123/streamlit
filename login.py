@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import mysql.connector
 
@@ -82,7 +82,7 @@ else:
             st.error("❌ Passwords do not match")
         else:
             register_user(username, email, password)
-=======
+
 import streamlit as st
 import mysql.connector
 
@@ -166,4 +166,4 @@ else:
             st.error("❌ Passwords do not match")
         else:
             register_user(username, email, password)
->>>>>>> 2bd5b8425307d2978eebd729ca7d30f8b51d9c91
+
